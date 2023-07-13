@@ -11,6 +11,7 @@ body {
     display: flex;
     border-radius: 10px;
 
+
 }
 
 .navbar ul {
@@ -26,6 +27,7 @@ body {
 .navbar li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
+    font-size: 40px;
     padding: 0px;
     margin-left: 10px;
 }
@@ -34,7 +36,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 30px;
     text-decoration: none;
 
 }
@@ -46,7 +48,7 @@ body {
 
 .navbar a.logo img {
     display: block;
-    height: 100px;
+    height: 200px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -57,5 +59,9 @@ body {
 
 .navbar a:hover {
     background-color: rgb(236, 176, 124);
-    border-radius: 5px;
+    border-radius: 20px;
+}
+
+.welcome_banner img {
+    width: 100%;
 }
